@@ -1,4 +1,4 @@
-# Restful-currency-conversion-API-with-full-CRUD-functionality
+# Restful-Currency-Conversion-API-with-full-CRUD-functionality
 REST-based micro-service that provides live “to” &amp; “from” conversions of requested currencies.
 
 Features an additional client-based CRUD application "update.php" that allows the addition or removal of currencies from the service. The application also allows the client to update their currency file by making calls to the currency rates service provider, ammending the currencies to their most recent rates.
