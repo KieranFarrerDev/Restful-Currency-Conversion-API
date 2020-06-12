@@ -6,10 +6,10 @@ Features an additional client based CRUD application "update.php" that allows th
 ## Good reponse examples:
 Example of conversion in XML request: https://kieranfarrer.co.uk/currencyapi/index.php?from=GBP&to=JPY&amnt=10.35&format=xml
 
-Example of conversion in JSON request: https://kieranfarrer.co.uk/currencyapi/index.php?from=USD&to=CNY&amnt=250&format=json
+Example of conversion in JSON request: https://kieranfarrer.co.uk/currencyapi/index.php?from=AUD&to=CNY&amnt=250&format=json
 
 ## Error code response examples:
-Example of incorrect response format request: https://kieranfarrer.co.uk/currencyapi/index.php?from=GBP&to=JPY&amnt=10.35&format=xml
+Example of incorrect response format request: https://kieranfarrer.co.uk/currencyapi/index.php?from=GBP&to=JPY&amnt=10.35&format=x
 
-Example of incorrect conversion value request: https://kieranfarrer.co.uk/currencyapi/index.php?from=USD&to=CBY&amnt=x&format=json
+Example of incorrect conversion value request: https://kieranfarrer.co.uk/currencyapi/index.php?from=USD&to=CNY&amnt=x&format=json
 
