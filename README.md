@@ -11,5 +11,5 @@ Example of conversion in JSON request: https://kieranfarrer.co.uk/currencyapi/in
 ## Error code response examples:
 Example of incorrect response format request: https://kieranfarrer.co.uk/currencyapi/index.php?from=GBP&to=JPY&amnt=10.35&format=x
 
-Example of incorrect conversion value request: https://kieranfarrer.co.uk/currencyapi/index.php?from=USD&to=CNY&amnt=x&format=json
+Example of incorrect conversion value request: https://kieranfarrer.co.uk/currencyapi/index.php?from=GBP&to=JPY&amnt=x&format=json
 
