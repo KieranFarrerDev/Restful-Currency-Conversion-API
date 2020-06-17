@@ -257,7 +257,7 @@ if (in_array($currency, $codes2) && $action == "post")
 {
 
     # pull the rates json file
-    $json_rates = file_get_contents('http://data.fixer.io/api/latest?access_key=5329c79a485661d124203cb48196a182') or die("Error: Cannot load JSON file from fixer");
+    $json_rates = file_get_contents("API KEY") or die("Error: Cannot load JSON file from fixer");
     # decode the json to a php object
     $rates = json_decode($json_rates);
     $gbp_rate = 1 / $rates
