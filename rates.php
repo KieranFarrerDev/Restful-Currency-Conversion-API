@@ -25,8 +25,9 @@ else {
         'THB', 'TRY', 'USD','ZAR'
     );
 }
-# pull the rates json file (USE YOUR OWN API KEY)
-$json_rates = file_get_contents('http://data.fixer.io/api/latest?access_key=5329c79a485661d124203cb48196a182')
+
+# pull the rates json file 
+$json_rates = file_get_contents("API KEY")
 			  or die("Error: Cannot load JSON file from fixer");
 
 #decode the json to a php object
