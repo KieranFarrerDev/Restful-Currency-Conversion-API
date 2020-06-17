@@ -10,7 +10,7 @@
 
 
   <h2>Restful API - CRUD: POST, PUT & DELETE Client Application</h2>
-  <h5>*This version is not linked to the API service and is for demonstration purposes*</h4>
+  <h4>*This version is not linked to the API service and is for demonstration purposes*</h4>
   <a href="https://kieranfarrer.co.uk/currencyapi/index.php?from=GBP&to=JPY&amnt=10.35&format=xml" target="_blank">"GBP" to "JPY" example API call as XML response</a>
   <br></br>
 
